@@ -1,0 +1,127 @@
+body {
+    background-image:  url(donuts6.jpeg);
+    background-size:cover;
+    background-position:center;
+    height: 151vh;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    color: white;
+}
+.h1{
+    margin-right: 250px;
+    color: #ffd629;
+    background-color: #5d2f20;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 20px #5d2f20;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: -40px;
+}
+header{
+    padding: 40px 4%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: #ffd629;
+    transform: scale(1.10);
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.card{
+    margin: auto;
+    width: 1000px;
+    font-size: 20px;
+    background-color: #442921;
+    text-align: center;
+    padding: 30px 35px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 40px #c26645;
+    border: 0px solid rgb(33, 26, 43);
+}
+.titulo{
+    text-align: center;
+    color: #ffd629;
+    padding: 35px;
+    border-radius: 20px;
+}
+.texto{
+    color: #fff2b6;
+    padding: 30px;
+    border-radius: 20px;
+}
+.image{
+    margin: auto;
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: center;
+    padding: 30px 35px;
+}
+.image2{
+    border-radius: 20px;
+}
+.h2{
+    color: #ffd629;
+    background-color: #5d2f20;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 20px #5d2f20;
+}
+.main-footer{
+    background-color: rgba(0, 0, 0, 0.808);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+    margin-top: 30px;
+}
+.part1{
+    display: flex;
+    justify-content: flex-start;
+}
+.part2{
+    display: flex;
+    justify-content: flex-end;
+}
+.main-footer .action{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.text-footer{
+    width: 500px;
+    font-size: 15px;
+    padding: 30px 0px;
+}
+.footercont{
+    text-align: end;
+    margin-right: 30px;
+    color: #ffd629;
+}
+.footericons{
+    padding: 20px 0px;
+    text-align: end;
+}
